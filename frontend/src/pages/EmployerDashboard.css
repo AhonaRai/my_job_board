@@ -1,0 +1,57 @@
+/* src/pages/EmployerDashboard.css */
+
+.employer-dashboard {
+    padding: 20px;
+  }
+  
+  .job-post-form {
+    margin-bottom: 20px;
+  }
+  
+  .job-post-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .job-post-form input,
+  .job-post-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .job-post-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .job-post-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .job-list {
+    margin-top: 20px;
+  }
+  
+  .job-item {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .success {
+    color: green;
+  }
+  

@@ -1,0 +1,21 @@
+/* Header.css */
+header {
+  background-color: #282c34; /* Dark background color */
+  color: white; /* White text color */
+  padding: 1rem; /* Padding around the header */
+  display: flex; /* Flexbox for layout */
+  justify-content: space-between; /* Space between logo and nav items */
+  align-items: center; /* Center align items vertically */
+}
+
+header .logo {
+  font-size: 1.5rem; /* Font size for logo */
+}
+
+header nav a {
+  color: white; /* White color for links */
+  text-decoration: none; /* Remove underline from links */
+  margin-left: 1rem; /* Space between links */
+}
+
+  

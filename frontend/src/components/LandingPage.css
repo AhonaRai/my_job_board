@@ -1,0 +1,242 @@
+/* src/pages/LandingPage.css */
+
+/* General Layout */
+.landing-page {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero {
+  background: #007bff;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.browse-jobs-button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 1.1em;
+  color: #fff;
+  background-color: #28a745;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.browse-jobs-button:hover {
+  background-color: #218838;
+}
+
+.landing-page-buttons {
+  margin-top: 20px;
+}
+
+.landing-page-buttons .login-button,
+.landing-page-buttons .register-button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 1.1em;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.landing-page-buttons .login-button {
+  background-color: #007bff;
+}
+
+.landing-page-buttons .login-button:hover {
+  background-color: #0056b3;
+}
+
+.landing-page-buttons .register-button {
+  background-color: #28a745;
+}
+
+.landing-page-buttons .register-button:hover {
+  background-color: #218838;
+}
+
+/* Featured Jobs Section */
+.featured-jobs {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+}
+
+.featured-jobs h2 {
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.job-listings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.job-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.job-item p {
+  margin-bottom: 10px;
+}
+
+.view-details-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.view-details-link:hover {
+  text-decoration: underline;
+}
+
+.view-all {
+  display: block;
+  text-align: center;
+  font-size: 1.1em;
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.view-all:hover {
+  text-decoration: underline;
+}
+
+/* About Us Section */
+.about {
+  padding: 60px 20px;
+}
+
+.about h2 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #333;
+}
+
+.about p {
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2em;
+  }
+
+  .hero p {
+    font-size: 1em;
+  }
+
+  .search-input {
+    padding: 8px;
+  }
+
+  .browse-jobs-button,
+  .landing-page-buttons .login-button,
+  .landing-page-buttons .register-button {
+    padding: 12px 20px;
+    font-size: 1em;
+  }
+
+  .featured-jobs h2,
+  .about h2 {
+    font-size: 1.8em;
+  }
+
+  .job-item {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .view-all {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 40px 10px;
+  }
+
+  .hero h1 {
+    font-size: 1.5em;
+  }
+
+  .hero p {
+    font-size: 0.9em;
+  }
+
+  .search-input {
+    padding: 6px;
+  }
+
+  .browse-jobs-button,
+  .landing-page-buttons .login-button,
+  .landing-page-buttons .register-button {
+    padding: 10px 15px;
+    font-size: 0.9em;
+  }
+
+  .featured-jobs h2,
+  .about h2 {
+    font-size: 1.5em;
+  }
+
+  .job-item {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .view-all {
+    font-size: 0.9em;
+  }
+}

@@ -1,0 +1,66 @@
+/* src/pages/RegisterPage.css */
+
+.register-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    padding: 20px;
+  }
+  
+  .register-page h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .register-page form {
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-page label {
+    display: block;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .register-page input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .register-page button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .register-page button:hover {
+    background-color: #218838;
+  }
+  
+  .register-page .error,
+  .register-page .success {
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .register-page .success {
+    color: #5bc0de;
+  }
+  

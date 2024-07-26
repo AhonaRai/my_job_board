@@ -1,0 +1,43 @@
+/* src/pages/JobListingsPage.css */
+
+.job-listings-page {
+    padding: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .job-listings-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .job-item {
+    /* existing styles */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .job-item-actions {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .view-details-link,
+  .apply-now-link {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .view-details-link:hover,
+  .apply-now-link:hover {
+    text-decoration: underline;
+  }
